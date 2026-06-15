@@ -17,7 +17,7 @@ import type {
 } from '../types'
 
 const users: User[] = [
-  { id: 'u1', username: 'manager', password: 'manager', name: 'Morgan (Manager)', role: 'manager' },
+  { id: 'u1', username: 'manager', password: 'manager', name: 'Jason (Manager)', role: 'manager' },
   { id: 'u2', username: 'super', password: 'super', name: 'Sam (Supervisor)', role: 'supervisor' },
   { id: 'u3', username: 'invmgr', password: 'invmgr', name: 'Ivy (Inventory Mgr)', role: 'inventory_manager' },
   { id: 'u4', username: 'clerk', password: 'clerk', name: 'Casey (Shipping Clerk)', role: 'shipping_clerk' },
