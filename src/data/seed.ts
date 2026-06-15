@@ -17,20 +17,20 @@ import type {
 } from '../types'
 
 const users: User[] = [
-  { id: 'u1', username: 'manager', password: 'manager', name: 'Morgan (Manager)', role: 'manager' },
-  { id: 'u2', username: 'super', password: 'super', name: 'Sam (Supervisor)', role: 'supervisor' },
-  { id: 'u3', username: 'invmgr', password: 'invmgr', name: 'Ivy (Inventory Mgr)', role: 'inventory_manager' },
-  { id: 'u4', username: 'clerk', password: 'clerk', name: 'Casey (Shipping Clerk)', role: 'shipping_clerk' },
+  { id: 'u1', username: 'manager', password: 'manager', name: 'Jason (Manager)', role: 'manager' },
+  { id: 'u2', username: 'super', password: 'super', name: 'Dan (Supervisor)', role: 'supervisor' },
+  { id: 'u3', username: 'invmgr', password: 'invmgr', name: 'Frank (Inventory Mgr)', role: 'inventory_manager' },
+  { id: 'u4', username: 'clerk', password: 'clerk', name: 'Jodie (Shipping Clerk)', role: 'shipping_clerk' },
   { id: 'u5', username: 'chase', password: 'chase', name: 'Chase (Forklift Op)', role: 'forklift_operator' },
-  { id: 'u6', username: 'inbound', password: 'inbound', name: 'Ingrid (Inbound)', role: 'inbound_scheduler' },
-  { id: 'u7', username: 'outbound', password: 'outbound', name: 'Otis (Outbound)', role: 'outbound_scheduler' },
+  { id: 'u6', username: 'inbound', password: 'inbound', name: '? (Inbound)', role: 'inbound_scheduler' },
+  { id: 'u7', username: 'outbound', password: 'outbound', name: '? (Outbound)', role: 'outbound_scheduler' },
 ]
 
 const products: Product[] = [
   { id: 'p-vw', sku: 'VW-20', name: 'Vitamin Water', shelfLifeDays: 270 },
-  { id: 'p-sw', sku: 'SW-16', name: 'Spring Water', shelfLifeDays: 730 },
-  { id: 'p-en', sku: 'EN-12', name: 'Energy Drink', shelfLifeDays: 365 },
-  { id: 'p-jc', sku: 'JC-32', name: 'Orange Juice', shelfLifeDays: 120 },
+  { id: 'p-sw', sku: 'SW-16', name: 'Powerade', shelfLifeDays: 730 },
+  { id: 'p-en', sku: 'EN-12', name: 'Gold Peak Sweet Tea', shelfLifeDays: 365 },
+  { id: 'p-jc', sku: 'JC-32', name: 'Minutemaid Orange Juice', shelfLifeDays: 120 },
 ]
 
 // Batches — note expiration dates relative to the demo "today" of 2026-06-13.
